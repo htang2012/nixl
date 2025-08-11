@@ -311,9 +311,9 @@ graph TB
     end
 
     subgraph "UCX Memory Management"
-        UCXMEM[UCX Memory Map<br/>ucp_mem_map()]
-        UCXRKEY[UCX Remote Key<br/>ucp_rkey_pack()]
-        UCXHANDLE[UCX Memory Handle<br/>ucp_mem_h]
+        UCXMEM["UCX Memory Map<br/>ucp_mem_map()"]
+        UCXRKEY["UCX Remote Key<br/>ucp_rkey_pack()"]
+        UCXHANDLE["UCX Memory Handle<br/>ucp_mem_h"]
     end
 
     subgraph "Physical Memory"
